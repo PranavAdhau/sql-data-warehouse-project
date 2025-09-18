@@ -66,7 +66,7 @@ BEGIN
             END,
             cst_create_date
         FROM (
-            SELECT *,
+            SELECT * ,
                    ROW_NUMBER() OVER (
                        PARTITION BY cst_id 
                        ORDER BY cst_create_date DESC
@@ -97,9 +97,8 @@ BEGIN
         )
         SELECT 
             prd_id,
-            prd_key,
-            REPLACE(SUBSTRING(prd_key, 1, 5), '-', '_'),
-            SUBSTRING(prd_key, 7, LEN(prd_key)),
+            REPLACE(SUBSTRING(prd_key, 1, 5), '-', '_') AS cat_id,
+            SUBSTRING(prd_key, 7, LEN(prd_key)) AS prd_key,
             prd_nm,
             ISNULL(prd_cost, 0),
             CASE UPPER(TRIM(prd_line))
