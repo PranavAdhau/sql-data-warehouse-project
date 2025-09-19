@@ -54,14 +54,15 @@ BEGIN
             cst_key,
             TRIM(cst_firstname),
             TRIM(cst_lastname),
-            CASE 
-                WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'
-                WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'Male'
-                ELSE 'n/a'
-            END,
+            -- <-- CORRECTED ORDER: marital_status then gender to match table column order
             CASE 
                 WHEN UPPER(TRIM(cst_marital_status)) = 'S' THEN 'Single'
                 WHEN UPPER(TRIM(cst_marital_status)) = 'M' THEN 'Married'
+                ELSE 'n/a'
+            END,
+            CASE 
+                WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'
+                WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'Male'
                 ELSE 'n/a'
             END,
             cst_create_date
