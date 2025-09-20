@@ -94,11 +94,11 @@ This project focused on the foundational data warehouse building. Future extensi
    * **Customer Segmentation:** Categorizing customers (e.g., VIP, Regular, New) based on behavior and value.  
    * **Product Performance Grouping:** Identifying product groups (e.g., High-Performers, Low-Performers) based on sales and quantity metrics.  
 
-   👉 Both steps completed in a separate repository: [SQL Data Analytics Project](https://github.com/PranavAdhau/sql-data-analytics-project)
+   > **🔗 Note:** Both steps are completed in a separate repository: [SQL Data Analytics Project](https://github.com/PranavAdhau/sql-data-analytics-project)
 
-3. **BI Dashboarding (Upcoming):** Implement analytical dashboards using tools like Power BI or Tableau to visualize KPIs and customer/product segments.  
+3. **BI Dashboarding:** Implement analytical dashboards using tools like Power BI or Tableau to visualize KPIs and customer/product segments.  
 
-4. **Data Source Expansion (Upcoming):** Incorporate additional data sources, such as **Finance & Marketing datasets**, to build a more comprehensive enterprise data model.
+4. **Data Source Expansion:** Incorporate additional data sources, such as **Finance & Marketing datasets**, to build a more comprehensive enterprise data model.
 
 ---
 
