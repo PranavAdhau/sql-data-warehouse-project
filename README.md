@@ -86,17 +86,21 @@ This model is built around the central **gold.fact\_sales** table, linked by for
 
 ## 🔮 Next Steps
 
-This project focused on the foundational data warehouse building. Future extensions will focus on consumption and maturity:
+This project focused on the foundational data warehouse building. Future extensions were planned, and the following steps have been **completed in a separate repository**:  
 
-1. **Exploratory Data Analysis (EDA) & Foundational Analytics:** Conduct in-depth analysis focusing on **time series**, **ranking**, and **magnitude** analysis. This process includes calculating crucial KPIs such as **Recency**, **Average Order Value (AOV)**, **Average Monthly Spend**, and **Lifespan** for both customer and product entities.
-2. **Advanced Business Analytics & Segmentation:** Implement sophisticated reporting logic using **data segmentation** and **part-to-whole analysis** to create high-value business insights. This involves:
-    * **Customer Segmentation:** Categorizing customers (e.g., VIP, Regular, New) based on behavior and value.
-    * **Product Performance Grouping:** Identifying product groups (e.g., High-Performers, Low-Performers) based on sales and quantity metrics.
-3. **BI Dashboarding:** Implement analytical dashboards using tools like Power BI or Tableau to visualize these key performance indicators and segments.
-4. **Data Source Expansion:** Incorporate additional data sources, such as **Finance & Marketing datasets**, to build a more comprehensive enterprise data model.
+1. **Exploratory Data Analysis (EDA) & Foundational Analytics:** Conducted in-depth analysis focusing on **time series**, **ranking**, and **magnitude** analysis. Calculated crucial KPIs such as **Recency**, **Average Order Value (AOV)**, **Average Monthly Spend**, and **Lifespan** for both customer and product entities.  
+
+2. **Advanced Business Analytics & Segmentation:** Implemented sophisticated reporting logic using **data segmentation** and **part-to-whole analysis** to create high-value business insights. This included:  
+   * **Customer Segmentation:** Categorizing customers (e.g., VIP, Regular, New) based on behavior and value.  
+   * **Product Performance Grouping:** Identifying product groups (e.g., High-Performers, Low-Performers) based on sales and quantity metrics.  
+
+   👉 Both steps completed in a separate repository: [SQL Data Analytics Project](https://github.com/PranavAdhau/sql-data-analytics-project)
+
+3. **BI Dashboarding (Upcoming):** Implement analytical dashboards using tools like Power BI or Tableau to visualize KPIs and customer/product segments.  
+
+4. **Data Source Expansion (Upcoming):** Incorporate additional data sources, such as **Finance & Marketing datasets**, to build a more comprehensive enterprise data model.
 
 ---
-
 
 ## 📂 Repository Structure
 ``` bash
